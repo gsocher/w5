@@ -15,7 +15,7 @@ or read [10.1 and 10.2, and if you like 10.3](https://codelabs.developers.google
 
 ## Assignment
 
-This assigment is about themes, styles, and attributes. The goal is to make the app in the repository as professional looking as you can. Please use [Material Design](https://material.io/).
+This assignment is about themes, styles, and attributes. The goal is to make the app in the repository as professional-looking as you can. Please use [Material Design](https://material.io/).
 
 The starter code is an app called **NASA_Apod**. Apod stands for [Astronomy Picture of the Day](https://apod.nasa.gov/apod/astropix.html). This is a collection of images provided by NASA with an [api](https://data.nasa.gov/Space-Science/Astronomy-Picture-of-the-Day-API/ez2w-t8ua) to retrieve the Astronomy Picture of the Day as well as archived pictures for previous days.
 
@@ -25,7 +25,7 @@ Screenshot of the starter code in the repository (left) and an example of how to
 
 For this assignment:
 
-- Use a material desgin theme, e.g. ```Theme.MaterialComponents```
+- Use a material design theme, e.g. ```Theme.MaterialComponents```
 - Use a layout suitable for images, e.g. a ```GridLayout```.
 - Use a color scheme that matches the astronomy theme of the app.
 - Make sure the app looks great for portrait and landscape orientation.
