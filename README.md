@@ -19,21 +19,11 @@ This assigment is about themes, styles, and attributes. The goal is to make the 
 
 The starter code is an app called **NASA_Apod**. Apod stands for [Astronomy Picture of the Day](https://apod.nasa.gov/apod/astropix.html). This is a collection of images provided by NASA with an [api](https://data.nasa.gov/Space-Science/Astronomy-Picture-of-the-Day-API/ez2w-t8ua) to retrieve the Astronomy Picture of the Day as well as archived pictures for previous days.
 
-Screenshot of the starter code in the repository (left) and an example of how to make the app better looking:
-<p align="center">
-<table aling=center border=1>
-<tr><td>
-  <img height="500" src="https://github.com/gsocher/w5/blob/master/doc/starter_app.png">
-  </td> <td>
-  <img height="500" src="https://github.com/gsocher/w5/blob/master/doc/styled_app_example.png">
-  </td>
-  </tr>
-</table>
-</p>
+Screenshot of the starter code in the repository (left) and an example of how to make the app better looking (right):
 
-The starter code displays a list of images with their title and date. The left screenshot shows the app in the starter code. 
+<img height="500" src="https://github.com/gsocher/w5/blob/master/doc/starter_app.png">  <img height="500" src="https://github.com/gsocher/w5/blob/master/doc/styled_app_example.png">
 
-For assignment:
+For this assignment:
 
 - Use a material desgin theme, e.g. ```Theme.MaterialComponents```
 - Use a layout suitable for images, e.g. a ```GridLayout```.
@@ -47,10 +37,10 @@ For assignment:
 
 ## Continuous Deployment to Github Releases with Travis-CI
 
-You might have checked [Travis-ci](https://travis-ci.com/) for your builds. Travis-ci is a continuous integration server. The ```.travis.yml``` file in your repo configures Travis-ci. For this repo, we want to use continuous deployment of the apk that Travis-ci builds back to Github. The ```.travis.yml``` has a deploy script. You need to add an environment variable to your repository settings in Travis-ci.
-- Go to [https://github.com/settings/tokens/new](https://github.com/settings/tokens/new) to create a new personal access token. Enter ```travis-ci-release-token``` in the 'Note' text field and check the 'repo' checkbox. Click 'Generate token'.
+We have used [Travis-ci](https://travis-ci.com/) for your builds. Travis-ci is a continuous integration server. The ```.travis.yml``` file in your repo configures Travis-ci. We want to use continuous deployment of the apk that Travis-ci builds back to Github. The ```.travis.yml``` has a deploy script. You need to add an environment variable to your repository settings in Travis-ci.
+- You need a Github token to allow Travis-ci to push to your repository. You can use last week's token. If you can not remember this token, go to [https://github.com/settings/tokens/new](https://github.com/settings/tokens/new) to create a second personal access token. Enter ```travis-ci-release-token-2``` in the 'Note' text field and check the 'repo' checkbox. Click 'Generate token'.
 - Copy the token you see.
-- Go to [https://travis-ci.com/](https://travis-ci.com/) and go to your w4- repository. Click on 'More options -> Settings', scroll to 'Environment Variables'
+- Go to [https://travis-ci.com/](https://travis-ci.com/) and go to your w5- repository. Click on 'More options -> Settings', scroll to 'Environment Variables'
 - Enter a new Environment Variable called GITHUB_API_KEY
 <p align="center">
   <img  src="https://miro.medium.com/max/1400/1*YKZ0pQW7EYZQV70qq5WMZw.png">
